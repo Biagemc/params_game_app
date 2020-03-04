@@ -1,1 +1,6 @@
-{ message: "query generator" }
+{
+  name: @user_name,
+  message: @letter_message,
+  guess: @number,
+  number: @game_message,
+}

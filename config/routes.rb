@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   # end
 
   namespace :api do
-    get "/selector" => "pages#index"
+    get "/selector" => "pages#query"
   end
 end
